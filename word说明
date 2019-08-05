@@ -1,0 +1,26 @@
+SUMO
+Section 1
+优点：
+1免费，面安装
+2便于路网导入
+3易于控制：python接口（Traci）
+4索引信息便利（任何车俩任何道路和仿真的信息）
+5跟驰换道参数修改便利（Krauss，IDM，ACC，CACC）
+缺点：
+1工程项目展示度低
+2添加一个新的跟驰模型需要一些高级操作
+3换道模型较少，主要换道模型为瞬间换道
+Section 2
+sumo的组成：
+道路net（spyder打开）
+车辆rou（spyder打开）
+仿真sumocfg
+实例1：两个交叉口进行不同信号控制
+step1：画路网
+step2：写车辆
+step3：仿真
+Section 3
+车辆输入的三种形式
+vehsPerHour='10'
+number="23"
+<vehicle id="0" type="type1" route="route0" depart="0" color="1,0,0"/>
