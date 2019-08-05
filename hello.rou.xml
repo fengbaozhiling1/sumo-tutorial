@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+   <vType id="CarA" length="5" maxSpeed="22"/>
+   
+    <flow id="a11" color="1,1,0"  begin="0" end= "7200" vehsPerHour='10' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L1 m1 m3 L6"/>
+    </flow>
+
+    <flow id="a12" color="1,1,0"  begin="0" end= "7200" vehsPerHour='126' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L1 m1 m3 L5"/>
+    </flow>
+
+    <flow id="a13" color="1,1,0"  begin="0" end= "7200" vehsPerHour='37' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L1 m1 m3 -L4"/>
+    </flow>
+
+    <flow id="b2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='187' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L1 -L3"/>
+    </flow>
+
+    <flow id="c3" color="1,1,0"  begin="0" end= "7200" vehsPerHour='29' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L1 -L2"/>
+    </flow>
+
+    <flow id="d1" color="1,1,0"  begin="0" end= "7200" vehsPerHour='175' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L2 L1"/>
+    </flow>
+
+    <flow id="e21" color="1,1,0"  begin="0" end= "7200" vehsPerHour='42' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L2 m1 m3 L6"/>
+    </flow>
+
+    <flow id="e22" color="1,1,0"  begin="0" end= "7200" vehsPerHour='521' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L2 m1 m3 L5"/>
+    </flow>
+
+    <flow id="e23" color="1,1,0"  begin="0" end= "7200" vehsPerHour='155' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L2 m1 m3 -L4"/>
+    </flow>
+
+    <flow id="f3" color="1,1,0"  begin="0" end= "7200" vehsPerHour='31' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L2 -L3"/>
+    </flow>
+
+    <flow id="g1" color="1,1,0"  begin="0" end= "7200" vehsPerHour='89' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L3 -L2"/>
+    </flow>
+
+    <flow id="h2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='190' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L3 L1"/>
+    </flow>
+
+    <flow id="i31" color="1,1,0"  begin="0" end= "7200" vehsPerHour='4' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L3 m1 m3 L6"/>
+    </flow>
+
+    <flow id="i32" color="1,1,0"  begin="0" end= "7200" vehsPerHour='38' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L3 m1 m3 L5"/>
+    </flow>
+
+    <flow id="i33" color="1,1,0"  begin="0" end= "7200" vehsPerHour='11' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L3 m1 m3 -L4"/>
+    </flow>
+
+    <flow id="j21" color="1,1,0"  begin="0" end= "7200" vehsPerHour='17' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L4 m4 m2 -L3"/>
+    </flow>
+
+    <flow id="j22" color="1,1,0"  begin="0" end= "7200" vehsPerHour='127' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L4 m4 m2 -L2"/>
+    </flow>
+
+    <flow id="j23" color="1,1,0"  begin="0" end= "7200" vehsPerHour='39' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L4 m4 m2 L1"/>
+    </flow>
+
+    <flow id="k2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='245' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L4 L6"/>
+    </flow>
+
+    <flow id="l2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='46' type="CarA" departLane="random" departSpeed="max">
+     <route edges="L4 L5"/>
+    </flow>
+
+    <flow id="m2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='161' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L5 -L4"/>
+    </flow>
+
+    <flow id="n21" color="1,1,0"  begin="0" end= "7200" vehsPerHour='59' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L5 m4 m2 -L3"/>
+    </flow>
+
+    <flow id="n22" color="1,1,0"  begin="0" end= "7200" vehsPerHour='460' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L5 m4 m2 -L2"/>
+    </flow>
+
+    <flow id="n23" color="1,1,0"  begin="0" end= "7200" vehsPerHour='139' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L5 m4 m2 L1"/>
+    </flow>
+
+    <flow id="o2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='125' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L5 L6"/>
+    </flow>
+
+    <flow id="p2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='158' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L6 L5"/>
+    </flow>
+
+    <flow id="r2" color="1,1,0"  begin="0" end= "7200" vehsPerHour='180' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L6 -L4"/>
+    </flow>
+
+    <flow id="s21" color="1,1,0"  begin="0" end= "7200" vehsPerHour='5' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L6 m4 m2 -L3"/>
+    </flow>
+
+    <flow id="s22" color="1,1,0"  begin="0" end= "7200" vehsPerHour='36' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L6 m4 m2 -L2"/>
+    </flow>
+
+    <flow id="s23" color="1,1,0"  begin="0" end= "7200" vehsPerHour='12' type="CarA" departLane="random" departSpeed="max">
+     <route edges="-L6 m4 m2 L1"/>
+    </flow>
+	
+</routes>
